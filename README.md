@@ -1,8 +1,14 @@
 ## Player Tracker
 
-A system which allows you to select and attach a tracker to any standard avatar contact.
+A system which allows you to select and attach a tracker to any standard avatar contact on any player.
 
 ## How it works
+
+Eight proximity contacts are used to triangulate the position of a player contact in 3D space.
+
+The parent of the proxmity contacts is constrained to itself and each of the eight contacts.
+
+The proximity outputs are then used to increase the weights of the parent constraint sources, equal to the direction and distance the contact is away from the center, subsequently moving the parent and the proximity contacts towards the player contact.
 
 ## Installation
 
