@@ -8,6 +8,7 @@ A system which allows you to select and attach a tracker to any standard avatar 
 
 [Video guide](www.google.com)
 
+
 **VR Installation**
 
 * Drag the "Tracker Container" Prefab onto your avatar in your Unity Scene.
@@ -19,6 +20,7 @@ A system which allows you to select and attach a tracker to any standard avatar 
 * Merge the FX Controller for each Tracker to your own FX Controller using the [VRLabs Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 * Copy the parameters of each Tracker from "Tracker Parameters" to your own VRC Parameters List.
 * Create a sub menu in your VRC Menu List and drag in "Tracker Menu".
+
 
 **Desktop Installation**
 
