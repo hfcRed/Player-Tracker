@@ -8,7 +8,7 @@ Eight proximity contacts are used to triangulate the position of a player contac
 
 The parent of the proxmity contacts is constrained to each of the eight contacts.
 
-The proximity outputs are then used to increase the weights of the parent constraint sources, equal to the direction and distance the player contact is away from the center, subsequently moving the parent and the proximity contacts towards the player contact.
+The proximity outputs are then used to increase the weights of the parent constraint sources, equal to the direction and distance the player contact is away from the center, subsequently moving the parent and the proximity contacts towards the player contact, resulting in the system following the player.
 
 ## Installation
 
