@@ -8,7 +8,6 @@ A system which allows you to select and attach a tracker to any standard avatar 
 
 [Video guide](www.google.com)
 
-
 **VR Installation**
 
 * Drag the "Tracker Container" Prefab onto your avatar in your Unity Scene.
@@ -21,10 +20,10 @@ A system which allows you to select and attach a tracker to any standard avatar 
 * Copy the parameters of each Tracker from "Tracker Parameters" to your own VRC Parameters List.
 * Create a sub menu in your VRC Menu List and drag in "Tracker Menu".
 
-
 **Desktop Installation**
 
 * Follow all steps mentioned in the "VR Installation" guide.
 * Select "PLayer Finder" and drag your head bone into the Parent Constraint Source, replacing the wrist bone.
-* Open "Constraint Settings" and unlock it.
+* Open "Constraint Settings" and unlock them.
 * Change "Rotation At Rest" to 90 degrees on the X Axis.
+* Lock the Constraint Settings.
