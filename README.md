@@ -1,8 +1,8 @@
 ## Player Tracker
 [![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://github.com/hfcRed/Player-Tracker/releases/tag/v0.4)
-[![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-lightgrey.svg)](https://shields.io/)
-[![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-lightgrey.svg)](https://shields.io/)
-[![Generic badge](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-informational.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-informational.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://shields.io/)
 
 A system which allows you to select and attach a tracker to any standard avatar contact on any player.
 
