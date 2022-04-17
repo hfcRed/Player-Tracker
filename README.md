@@ -1,5 +1,5 @@
 ## Player Tracker
-[![Generic badge](https://img.shields.io/badge/Version-1.0-orange.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Version-1.0-orange.svg)](https://github.com/hfcRed/Player-Tracker/releases/latest)
 [![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-informational.svg)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-informational.svg)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://shields.io/)
