@@ -1,5 +1,5 @@
 ## Player Tracker
-[![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://github.com/hfcRed/Player-Tracker/releases/tag/v0.4)
+[![Generic badge](https://img.shields.io/badge/Version-1.0-orange.svg)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-informational.svg)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-informational.svg)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://shields.io/)
