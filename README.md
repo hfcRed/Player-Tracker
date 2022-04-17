@@ -25,7 +25,7 @@ A system which allows you to select and attach a tracker to any standard avatar 
 **Desktop Installation**
 
 * Follow all steps mentioned in the "VR Installation" guide.
-* Select "PLayer Finder" and drag your head bone into the Parent Constraint Source, replacing the wrist bone.
+* Select "Player Finder" and drag your head bone into the Parent Constraint Source, replacing the wrist bone.
 * Open "Constraint Settings" and unlock them.
 * Change "Rotation At Rest" to 90 degrees on the X Axis.
 * Lock the Constraint Settings.
