@@ -34,8 +34,9 @@ A system which allows you to select and attach a tracker to any standard avatar 
 
 [Video guide](www.google.com)
 
+* [Lyumas Av3Emulator](https://github.com/lyuma/Av3Emulator) is required for testing the Tracker in Unity.
 * You can put anything you want inside the "Container" of each Tracker and it will follow the player once attached.
-* You can change the Colission Tags of each of the seven proximity contacts inside "Tracking Points" from "Torso" to any other standard player contact and the Tracker will attach to that contact instead. It is adviced to add the same Colission Tags to the four Contact Receivers in "Hit Detector" to match the Tags of the Tracking Points, making attaching more consistent.
+* Changes can be made to the Colission Tags of each of the seven proximity contacts inside "Tracking Points" from "Torso" to any other standard player contact and the Tracker will attach to that contact instead. It is adviced to add the same Colission Tags to the four Contact Receivers in "Hit Detector" to match the Tags of the Tracking Points, making attaching more consistent.
 * Once the Tracker is attached it sets the "Tracker X/Output" parameter to "True" which is used by the "Tracker Output" layer to switch between two animation states depending on whether or not the Tracker is on a player. You can put your own Animations inside the two Animation States or use it as a template to build your own logic.
 * You can change the Control Type in the Tracker Menu from "Toggle" to "Button" if you want the raycast to automatically turn off once a target has been selected.
 * The gesture for selecting a target can be changed by editing the conditions of the transitions from "Hit" to "Start" and "Confirm".
