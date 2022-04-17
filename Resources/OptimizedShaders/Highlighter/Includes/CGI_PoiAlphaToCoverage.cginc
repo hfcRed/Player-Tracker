@@ -17,7 +17,7 @@
             
             if(float(0))
             {
-                finalColor.a *= 1 + max(0, CalcMipLevel(poiMesh.uv[0] * float4(0.25,0.25,4,4).zw)) * float(0.25);
+                finalColor.a *= 1 + max(0, CalcMipLevel(poiMesh.uv[0] * float4(1,1,1,1).zw)) * float(0.25);
                 finalColor.a = (finalColor.a - float(0)) / max(fwidth(finalColor.a), 0.0001) + float(0);
             }
         }

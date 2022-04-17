@@ -15,7 +15,7 @@ MonoBehaviour:
   parameters:
   - name: Tracker 1/Enable
     valueType: 2
-    saved: 1
+    saved: 0
     defaultValue: 0
   - name: Tracker 1/Select
     valueType: 2
@@ -23,7 +23,7 @@ MonoBehaviour:
     defaultValue: 0
   - name: Tracker 2/Enable
     valueType: 2
-    saved: 1
+    saved: 0
     defaultValue: 0
   - name: Tracker 2/Select
     valueType: 2
@@ -31,7 +31,7 @@ MonoBehaviour:
     defaultValue: 0
   - name: Tracker 3/Enable
     valueType: 2
-    saved: 1
+    saved: 0
     defaultValue: 0
   - name: Tracker 3/Select
     valueType: 2
@@ -39,7 +39,7 @@ MonoBehaviour:
     defaultValue: 0
   - name: Tracker 4/Enable
     valueType: 2
-    saved: 1
+    saved: 0
     defaultValue: 0
   - name: Tracker 4/Select
     valueType: 2

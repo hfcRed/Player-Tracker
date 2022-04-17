@@ -20,7 +20,7 @@ float4 frag(v2f i, uint facing: SV_IsFrontFace): SV_Target
 			return 0;
 		#endif
 		
-		if (float(1) == 0)
+		if (float(0) == 0)
 		{
 			return 0;
 		}

@@ -147,7 +147,7 @@ float3 calculateEmissionNew(in float3 baseColor, inout float4 finalColor)
         
         if (!float(0))
         {
-            emissionColor0 = POI2D_SAMPLER_PAN(_EmissionMap, _MainTex, poiMesh.uv[float(0)], float4(0,0,0,0)).rgb * lerp(1, baseColor, float(0)).rgb * _EmissionColor.rgb;
+            emissionColor0 = POI2D_SAMPLER_PAN(_EmissionMap, _MainTex, poiMesh.uv[float(4)], float4(0,0,0,0)).rgb * lerp(1, baseColor, float(0)).rgb * _EmissionColor.rgb;
         }
         else
         {
@@ -157,7 +157,7 @@ float3 calculateEmissionNew(in float3 baseColor, inout float4 finalColor)
         emissionColor0 = lerp(1, baseColor, float(0)).rgb * _EmissionColor.rgb;
     #endif
     
-    if (float(0))
+    if (float(1))
     {
         float3 pos = poiMesh.localPos;
         
@@ -169,12 +169,12 @@ float3 calculateEmissionNew(in float3 baseColor, inout float4 finalColor)
         if (float(0))
         {
             #if defined(PROP_EMISSIONSCROLLINGCURVE) || !defined(OPTIMIZER_ENABLED)
-                emissionStrength0 *= UNITY_SAMPLE_TEX2D_SAMPLER(_EmissionScrollingCurve, _MainTex, TRANSFORM_TEX(poiMesh.uv[float(0)], _EmissionScrollingCurve) + (dot(pos, float4(0,-10,0,0).xyz) * float(20)) + _Time.x * float(10)).r;
+                emissionStrength0 *= UNITY_SAMPLE_TEX2D_SAMPLER(_EmissionScrollingCurve, _MainTex, TRANSFORM_TEX(poiMesh.uv[float(4)], _EmissionScrollingCurve) + (dot(pos, float4(0,-10,0,0).xyz) * float(4)) + _Time.x * float(7.5)).r;
             #endif
         }
         else
         {
-            emissionStrength0 *= calculateScrollingEmission(float4(0,-10,0,0).xyz, float(10), float(20), float(10), float(0), pos);
+            emissionStrength0 *= calculateScrollingEmission(float4(0,-10,0,0).xyz, float(7.5), float(4), float(10), float(0), pos);
         }
     }
     
@@ -206,7 +206,7 @@ float3 calculateEmissionNew(in float3 baseColor, inout float4 finalColor)
     float3 emission1 = 0;
     float emissionStrength1 = 0;
     float3 emissionColor1 = 0;
-    finalColor.rgb = lerp(finalColor.rgb, saturate(emissionColor0 + emissionColor1), saturate(emissionStrength0 + emissionStrength1) * float(1) * poiMax(emission0 + emission1));
+    finalColor.rgb = lerp(finalColor.rgb, saturate(emissionColor0 + emissionColor1), saturate(emissionStrength0 + emissionStrength1) * float(0) * poiMax(emission0 + emission1));
     return emission0 + emission1;
 }
 #endif

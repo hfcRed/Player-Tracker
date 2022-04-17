@@ -23,15 +23,15 @@
 	#include "CGI_PoiTessellation.cginc"
 #endif
 #include "CGI_PoiDithering.cginc"
+#ifdef USER_LUT
+	#include "CGI_PoiUVDistortion.cginc"
+#endif
 #include "CGI_PoiData.cginc"
 #include "CGI_PoiSpawnInFrag.cginc"
 #ifdef WIREFRAME
 	#include "CGI_PoiWireframe.cginc"
 #endif
 #ifdef FUR
-#endif
-#ifdef VIGNETTE_MASKED
-	#include "CGI_PoiLighting.cginc"
 #endif
 #include "CGI_PoiMainTex.cginc"
 #include "CGI_PoiBlending.cginc"
