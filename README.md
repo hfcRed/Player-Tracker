@@ -28,7 +28,7 @@ A system which allows you to select and attach a tracker to any standard avatar 
 
 ## Downloads
 
-You can get the latest version of the Player Tracker in [Releases](github.com/hfcRed/Player-Tracker/releases/latest).
+You can get the latest version of the Player Tracker in [Releases](https://github.com/hfcRed/Player-Tracker/releases/latest).
 
 ## License
 
