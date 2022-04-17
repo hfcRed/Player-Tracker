@@ -1,4 +1,5 @@
 ## Player Tracker
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 A system which allows you to select and attach a tracker to any standard avatar contact on any player.
 
@@ -26,7 +27,13 @@ A system which allows you to select and attach a tracker to any standard avatar 
 * Change "Rotation At Rest" to 90 degrees on the X Axis.
 * Lock the Constraint Settings.
 
-## Downloads
+## Customization
+
+[Video guide](www.google.com)
+
+
+
+## Download
 
 You can get the latest version of the Player Tracker in [Releases](https://github.com/hfcRed/Player-Tracker/releases/latest).
 
