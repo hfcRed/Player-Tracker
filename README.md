@@ -2,14 +2,6 @@
 
 A system which allows you to select and attach a tracker to any standard avatar contact on any player.
 
-## How it works
-
-Eight proximity contacts are used to triangulate the position of a player contact in 3D space.
-
-The parent of the proxmity contacts is constrained to each of the eight contacts.
-
-The proximity outputs are then used to increase the weights of the parent constraint sources, equal to the direction and distance the player contact is away from the center, subsequently moving the parent and the proximity contacts towards the player contact, resulting in the system following the player.
-
 ## Installation
 
 [Video guide](www.google.com)
@@ -33,3 +25,11 @@ The proximity outputs are then used to increase the weights of the parent constr
 * Open "Constraint Settings" and unlock them.
 * Change "Rotation At Rest" to 90 degrees on the X Axis.
 * Lock the Constraint Settings.
+
+## Downloads
+
+You can get the latest version of the Player Tracker in [Releases](github.com/hfcRed/Player-Tracker/releases/latest).
+
+## License
+
+Player Tracker falls under the [MIT License](https://github.com/hfcRed/Player-Tracker/blob/main/LICENSE) and is free to use and redistribute.
