@@ -42,7 +42,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Tracker Container/Tracker 4/Container
+    path: Placeholder
     classID: 1
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -54,7 +54,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 337609341
+      path: 1937379541
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -107,7 +107,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Tracker Container/Tracker 4/Container
+    path: Placeholder
     classID: 1
     script: {fileID: 0}
   m_EulerEditorCurves: []
