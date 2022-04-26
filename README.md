@@ -8,7 +8,7 @@ A system which allows you to select and attach a tracker to any standard avatar 
 
 ## Installation
 
-[Video guide](www.google.com)
+[Video guide](https://youtu.be/VxRd_xnk8cw)
 
 **VR Installation**
 
@@ -32,7 +32,7 @@ A system which allows you to select and attach a tracker to any standard avatar 
 
 ## Customization
 
-[Video guide](www.google.com)
+[Video guide](https://youtu.be/fnzjePar9lw)
 
 * [Lyumas Av3Emulator](https://github.com/lyuma/Av3Emulator) is required for testing in Unity.
 * You can put anything you want inside the "Container" of each Tracker and it will follow the player once attached.
