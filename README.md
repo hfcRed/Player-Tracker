@@ -6,7 +6,7 @@
 
 A system which allows you to select and attach a tracker to any standard avatar contact on any player.
 
-[Showcase]()
+[Showcase](https://twitter.com/VRCRedd/status/1519102776764035072)
 
 ## How to use
 
