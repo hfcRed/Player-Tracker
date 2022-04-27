@@ -51,6 +51,11 @@ Enable the tracker selection and point towards the player you would like to atta
 
 You can get the latest version of the Player Tracker in [Releases](https://github.com/hfcRed/Player-Tracker/releases/latest).
 
+## Suport
+
+If you encounter any problems or need help with the package dont hesitate to shoot me a message on Discord:
+Red#1832
+
 ## License
 
 Player Tracker falls under the [MIT License](https://github.com/hfcRed/Player-Tracker/blob/main/LICENSE) and is free to use and redistribute.
