@@ -51,7 +51,7 @@ Enable the tracker selection and point towards the player you would like to atta
 
 You can get the latest version of the Player Tracker in [Releases](https://github.com/hfcRed/Player-Tracker/releases/latest).
 
-## Suport
+## Support
 
 If you encounter any problems or need help with the package dont hesitate to shoot me a message on Discord:
 Red#1832
