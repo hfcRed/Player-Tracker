@@ -43,7 +43,7 @@ Enable the tracker selection and point towards the player you would like to atta
 
 * [Lyumas Av3Emulator](https://github.com/lyuma/Av3Emulator) is required for testing in Unity.
 * You can put anything you want inside the "Container" of each Tracker and it will follow the player once attached.
-* Changes can be made to the Colission Tags of each of the seven proximity contacts inside "Tracking Points" from "Torso" to any other standard player contact and the Tracker will attach to that contact instead. It is adviced to add the same Colission Tags to the four Contact Receivers in "Hit Detector" to match the Tags of the Tracking Points, making attaching more consistent.
+* Changes can be made to the Collision Tags of each of the seven proximity contacts inside "Tracking Points" from "Torso" to any other standard player contact and the Tracker will attach to that contact instead. It is adviced to add the same Collision Tags to the four Contact Receivers in "Hit Detector" to match the Tags of the Tracking Points, making attaching more consistent.
 * Trackers can also be tagged to follow two contacts and will avarage out between them.
 * Once the Tracker is attached it sets the "Tracker X/Output" parameter to "True" which is used by the "Tracker Output" layer to switch between two animation states depending on whether or not the Tracker is on a player. You can put your own Animations inside the two Animation States or use it as a template to build your own logic.
 * The gesture for selecting a target can be changed by editing the conditions of the transitions from "Hit" to "Start" and "Confirm".
