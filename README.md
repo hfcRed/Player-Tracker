@@ -16,6 +16,9 @@ A system which allows you to select and attach a tracker to any standard avatar 
 
 ---
 
+> [!CAUTION]
+> This package is outdated and is no longer receiving updates or support! If you wish to use trackers on your avatar, use the [VRLabs Contact Tracker](https://github.com/VRLabs/Contact-Tracker).
+
 ## How to use
 
 Enable the tracker selection and point towards the player you would like to attach the tracker to. Players that the tracker can be attached to will be highlighted when pointing at. The selection can then be confirmed by making a right hand fist gesture and the tracker will attach.
