@@ -1,4 +1,7 @@
+<div align="center">
+
 # Player Tracker
+
 [![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-informational.svg)](https://unity3d.com/unity/whats-new/2019.4.31)
 [![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-informational.svg)](https://vrchat.com/home/download)
 [![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://github.com/hfcRed/Player-Tracker/blob/main/LICENSE)
@@ -9,6 +12,10 @@ A system which allows you to select and attach a tracker to any standard avatar 
 
 [Showcase](https://twitter.com/VRCRedd/status/1519102776764035072)
 
+</div>
+
+---
+
 ## How to use
 
 Enable the tracker selection and point towards the player you would like to attach the tracker to. Players that the tracker can be attached to will be highlighted when pointing at. The selection can then be confirmed by making a right hand fist gesture and the tracker will attach.
@@ -17,7 +24,7 @@ Enable the tracker selection and point towards the player you would like to atta
 
 [Video guide](https://youtu.be/VxRd_xnk8cw)
 
-**VR Installation**
+### VR Installation
 
 * Drag the "Tracker Container" Prefab onto your avatar in your Unity Scene.
 * Unpack the Prefab completely.
@@ -29,7 +36,7 @@ Enable the tracker selection and point towards the player you would like to atta
 * Copy the parameters of each Tracker from "Tracker Parameters" to your own VRC Parameters List.
 * Create a sub menu in your VRC Menu List and drag in "Tracker Menu".
 
-**Desktop Installation**
+### Desktop Installation
 
 * Follow all steps mentioned in the "VR Installation" guide.
 * Select "Player Finder" and drag your head bone into the Parent Constraint Source, replacing the wrist bone.
@@ -54,8 +61,7 @@ You can get the latest version of the Player Tracker in [Releases](https://githu
 
 ## Support
 
-If you encounter any problems or need help with the package dont hesitate to shoot me a message on Discord:
-Red#1832
+While I no longer offer support for this package, you can still reach me on Discord under the username ``hfcRed`` for related questions.
 
 ## License
 
